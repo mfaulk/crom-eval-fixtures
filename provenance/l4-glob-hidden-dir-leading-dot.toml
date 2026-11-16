@@ -1,0 +1,6 @@
+upstream = "https://github.com/rust-lang/glob"
+issue = "https://github.com/rust-lang/glob/issues/67"
+license = "MIT OR Apache-2.0"
+base_commit = "55d550eab0f7a0ba537baba77a12c2d11e32fe4d"
+fix_commit = "4ab7f0fb50d3b74e16ba92824779823b888ab018"
+author = "The Rust Project Developers"

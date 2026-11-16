@@ -1,8 +1,8 @@
 # crom-eval-fixtures
 
-Pinned snapshots of upstream Rust repositories used as fixtures for the L3
-capability tasks in [crom-rs](https://github.com/mfaulk/crom-rs)
-(`crates/crom-eval/eval/tasks/l3-*`).
+Pinned snapshots of upstream Rust repositories used as fixtures for the L3 and
+L4 capability tasks in [crom-rs](https://github.com/mfaulk/crom-rs)
+(`crates/crom-eval/eval/tasks/l3-*` and `l4-*`).
 
 Each top-level `<task-id>/` directory is one upstream repository at the parent
 commit of a historical bug fix, with its dependencies vendored (`vendor/` plus
@@ -10,8 +10,12 @@ commit of a historical bug fix, with its dependencies vendored (`vendor/` plus
 network. Nothing in a task directory reveals the fix: the bug report, hidden
 tests, and reference patch live only in crom-rs.
 
+`l4-*` snapshots are taken the same way, at the parent of the commit that
+resolved a real, closed upstream issue; the issue text is the task prompt.
+
 `provenance/<task-id>.toml` records the upstream URL, license, base commit,
-and fix commit. These files sit outside the task directories because a task
+and fix commit (and, for `l4-*`, the issue URL). These files sit outside the
+task directories because a task
 directory is copied verbatim into the agent's workspace.
 
 ## How crom uses this repository

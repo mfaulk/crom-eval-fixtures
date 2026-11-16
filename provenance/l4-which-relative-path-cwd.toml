@@ -1,0 +1,6 @@
+upstream = "https://github.com/harryfei/which-rs"
+issue = "https://github.com/harryfei/which-rs/issues/127"
+license = "MIT"
+base_commit = "7fba0e04d0674bbe8ccf5bfb4f09b1d00925806f"
+fix_commit = "48e49d554b7a7c2812644d8d4950f50e995a9ecc"
+author = "which-rs contributors"

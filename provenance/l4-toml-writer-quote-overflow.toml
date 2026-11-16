@@ -1,0 +1,6 @@
+upstream = "https://github.com/toml-rs/toml"
+issue = "https://github.com/toml-rs/toml/issues/1188"
+license = "MIT OR Apache-2.0"
+base_commit = "771a975840ff876825c2973a79634ffe79a3bf5a"
+fix_commit = "3adbbb7860810b146dbdedba1f315c90813083f2"
+author = "toml-rs contributors"

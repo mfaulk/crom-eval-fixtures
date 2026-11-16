@@ -1,0 +1,6 @@
+upstream = "https://github.com/Stebalien/tempfile"
+issue = "https://github.com/Stebalien/tempfile/issues/395"
+license = "MIT OR Apache-2.0"
+base_commit = "929a1127bde5046733d535281203bf8ec1bf2c9e"
+fix_commit = "e34e5748d66a48073ec8e1e6ba37338eecca4548"
+author = "tempfile contributors"

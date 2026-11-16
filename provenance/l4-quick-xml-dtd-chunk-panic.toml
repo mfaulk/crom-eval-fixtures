@@ -1,0 +1,6 @@
+upstream = "https://github.com/tafia/quick-xml"
+issue = "https://github.com/tafia/quick-xml/issues/960"
+license = "MIT"
+base_commit = "42cbb86ccf15a49eebcc61a83fe1125c7a0ddc9a"
+fix_commit = "8128038a58feb3d10a4280897777ceec88d47853"
+author = "quick-xml contributors"

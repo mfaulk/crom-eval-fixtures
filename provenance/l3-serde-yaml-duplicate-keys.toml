@@ -1,0 +1,5 @@
+upstream = "https://github.com/dtolnay/serde-yaml"
+license = "MIT OR Apache-2.0"
+base_commit = "13837fd5686a4f39fc8d9b8287622fe254b5d9bc"
+fix_commit = "ec1c1e42cbf5f740e72e378553a63af52fcc9f29"
+author = "serde-yaml contributors"

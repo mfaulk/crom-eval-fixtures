@@ -1,0 +1,5 @@
+upstream = "https://github.com/tokio-rs/bytes"
+license = "MIT"
+base_commit = "d5c8ad3227afe459c09f1d0d85455abf00f0381a"
+fix_commit = "7930d93d583757e922014312d4aa3e58a415131f"
+author = "bytes contributors"

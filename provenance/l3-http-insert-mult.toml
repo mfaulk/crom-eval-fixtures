@@ -1,0 +1,5 @@
+upstream = "https://github.com/hyperium/http"
+license = "MIT OR Apache-2.0"
+base_commit = "c6af28bfd8ef171a7f8c61e551d3ee68db4ca577"
+fix_commit = "3dd9f5e1c3c228c26e6836ee60b36129351bfd3b"
+author = "http contributors"

@@ -1,0 +1,11 @@
+# Upstream code at this commit predates rustc's deny-by-default
+# `dangerous_implicit_autorefs` lint (src/libyaml/*); allow it so the
+# snapshot builds on current stable.
+[build]
+rustflags = ["-A", "dangerous_implicit_autorefs"]
+
+[source.crates-io]
+replace-with = "vendored-sources"
+
+[source.vendored-sources]
+directory = "vendor"

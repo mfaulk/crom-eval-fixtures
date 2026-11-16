@@ -1,0 +1,5 @@
+upstream = "https://github.com/servo/rust-url"
+license = "MIT OR Apache-2.0"
+base_commit = "51f71580e2d8a58eb98b53fdb139dfffa13571bf"
+fix_commit = "25137be1fc1d35cc8ea7d43fc0a02166b023a483"
+author = "rust-url contributors"

@@ -1,0 +1,5 @@
+upstream = "https://github.com/petgraph/petgraph"
+license = "MIT OR Apache-2.0"
+base_commit = "ee87fa29507b25030d5f7998a17b94e83d67af71"
+fix_commit = "45053893f3ef7d32924aa53fc26dbac7e79290c8"
+author = "petgraph contributors"

@@ -1,0 +1,5 @@
+upstream = "https://github.com/ron-rs/ron"
+license = "Apache-2.0 OR MIT"
+base_commit = "567683c9c5ec4b9b6d4ccf056998fcd64b229aae"
+fix_commit = "420c082614cbc7280c619f0d189f6a911df2e504"
+author = "ron contributors"

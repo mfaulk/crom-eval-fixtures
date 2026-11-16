@@ -1,0 +1,21 @@
+[package]
+name = "tester"
+version = "0.9.1"
+authors = ["The Rust Project Developers"]
+license = "MIT OR Apache-2.0"
+description = "A fork of Rust’s `test` crate that doesn’t require unstable language features."
+repository = "https://github.com/messense/rustc-test"
+edition = "2018"
+
+[features]
+asm_black_box = []
+capture = []
+
+[dependencies]
+getopts = "0.2"
+term = "0.7"
+num_cpus = "1.13.0"
+cfg-if = "1.0.0"
+
+[target.'cfg(unix)'.dependencies]
+libc = { version = "0.2", default-features = false }

@@ -1,0 +1,11 @@
+[package]
+name = "test-nostd"
+publish = false
+edition = "2024"
+
+[dependencies.indexmap]
+path = ".."
+default-features = false
+features = ["serde"]
+
+[dev-dependencies]

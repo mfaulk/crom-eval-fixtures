@@ -1,0 +1,5 @@
+upstream = "https://github.com/indexmap-rs/indexmap"
+license = "Apache-2.0 OR MIT"
+base_commit = "fdf7e1738b3b53869bdc15d666f9b81961041825"
+fix_commit = "c067355e1ca5ec39348f42dcee582d4f222c3295"
+author = "indexmap contributors"

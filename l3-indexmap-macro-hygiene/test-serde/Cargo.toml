@@ -1,0 +1,12 @@
+[package]
+name = "test-serde"
+publish = false
+edition = "2024"
+
+[dependencies]
+
+[dev-dependencies]
+fnv = "1.0"
+indexmap = { path = "..", features = ["serde"] }
+serde = { version = "1.0.99", features = ["derive"] }
+serde_test = "1.0.99"

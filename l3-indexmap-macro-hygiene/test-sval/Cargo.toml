@@ -1,0 +1,12 @@
+[package]
+name = "test-sval"
+publish = false
+edition = "2024"
+
+[dependencies]
+
+[dev-dependencies]
+fnv = "1.0"
+indexmap = { path = "..", features = ["sval"] }
+sval = { version = "2", features = ["derive"] }
+sval_test = "2"

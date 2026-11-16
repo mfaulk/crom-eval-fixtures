@@ -1,0 +1,23 @@
+
+[package]
+name = "ron-fuzz"
+version = "0.0.0"
+publish = false
+edition = "2018"
+
+[package.metadata]
+cargo-fuzz = true
+
+[dependencies]
+libfuzzer-sys = { version = "0.4", default-features = false, features = ["link_libfuzzer"] }
+ron = { path = "..", default-features = false, features = ["integer128", "std"] }
+
+# Prevent this from interfering with workspaces
+[workspace]
+members = ["."]
+
+[[bin]]
+name = "from_str"
+path = "fuzz_targets/from_str.rs"
+test = false
+doc = false

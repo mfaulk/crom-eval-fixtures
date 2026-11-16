@@ -1,0 +1,5 @@
+upstream = "https://github.com/rust-bakery/nom"
+license = "MIT"
+base_commit = "a44b52ed9052a66f5eb2add9aa5b314f034dc580"
+fix_commit = "51c3c4e44fa78a8a09b413419372b97b2cc2a787"
+author = "nom contributors"

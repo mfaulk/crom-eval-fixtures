@@ -1,0 +1,43 @@
+[package]
+name = "odds"
+version = "0.4.0"
+authors = ["bluss"]
+license = "MIT/Apache-2.0"
+
+description = """
+Odds and ends — collection miscellania. Extra functionality for slices (`.find()`, `RevSlice`), strings and other things. Things in odds may move to more appropriate crates if we find them.
+"""
+documentation = "https://docs.rs/odds/"
+repository = "https://github.com/bluss/odds"
+
+keywords = ["data-structure", "debug-assert", "slice", "string", "no_std"]
+categories = ["no-std"]
+
+[dependencies]
+rawpointer = "0.2"
+rawslice = "0.1.0"
+unchecked-index = "0.2.2"
+
+[dev-dependencies]
+itertools = "0.8"
+memchr = "2.0"
+lazy_static = "1"
+quickcheck = { version = "0.9", default-features = false }
+
+[features]
+default = []
+
+std-string = ["std"]
+std-vec = ["std"]
+std = []
+
+unstable = []
+
+docs = ["std-string", "std-vec"]
+
+[package.metadata.docs.rs]
+features = ["docs"]
+
+[package.metadata.release]
+no-dev-version = true
+

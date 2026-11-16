@@ -1,0 +1,5 @@
+upstream = "https://github.com/rust-itertools/itertools"
+license = "MIT OR Apache-2.0"
+base_commit = "09403b3ca0a1361a9b781e3ee098107d13be3aa6"
+fix_commit = "13aa10e27a6bb5b5dd70cb677924af5846862560"
+author = "itertools contributors"
